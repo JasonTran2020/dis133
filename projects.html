@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <!-- Most updated bootstrap. The one on slack was outdated and did not have some features needed for a responsive youtube video-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Older bootstrap version that makes the navigation bar more aesthetically pleasing. Comes second to override the new bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <!-- Google Web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+            <div class="container">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <span >Navigation</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link link-dark" >
+                            About me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work-experience.html" class="nav-link link-dark" >
+                            Work experience
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link active" aria-current="page">
+                            Projects
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="col main" style="padding-top: 10%">
+            <div class="container text-center">
+                <h1 class="arvo-bold">
+                    Projects
+                </h1>
+            </div>
+            <div class="container-md arvo-regular">
+                <h2>
+                    <a href="https://github.com/JasonTran2020/Fabflix">
+                        Fabflix
+                    </a>
+                </h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8_HkpJkLGXM?wmode=transparent&amp" allowfullscreen></iframe>
+                </div>
+                <div class="text-center">
+                    <em>
+                        Demo video of Fabflix being stress test in load-balancing configuration
+                    </em>
+                </div>
+                <p>
+                    A full-stack web project centered around a database containing thousands of actors, movies, directors, and their corresponding relationships.
+                    A logged-in user may browse/search movies based on different criterias such as movie title, actor name, year, genre, etc.
+                    The project is powered by technologies such as Java Servlets, MySql, and Apache Tomcat. Was created with another classmate, Eric Chang.
+                </p>
+                <h2>
+                    <a href="https://github.com/Food4Cheap/SuperPrice">
+                        SuperPrice
+                    </a>
+                </h2>
+                <div class="text-center">
+                    <img src="Food4CheapMilestone1.gif" alt="Fabflix demo gif" width="100%">
+                    <em>
+                        Gif of demoing some features of SuperPrice
+                    </em>
+                </div>
+                <p>
+                    My first independent project for an Android App. This app allows a user to search for particular grocery items, in which the app will show products matching the
+                    user's search from various supermarkets. Items selected will be placed into different carts, grouped by the particular supermarket location, allowing the user
+                    to see which markets are the closest and has the cheapest overall price. Obviously relies on the Android SDK, but also used Back4App to store user data online and the Kroger
+                    API to get product details at particular locations.
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
