@@ -1,0 +1,15 @@
+{
+  "name": "Example HotDog",
+  "symbol": "EDG",
+  "description": "Awsome token :)",
+  "image": "https://www.samurai-inc.com/cdn/shop/products/BAD7F303-8F43-4913-B212-EF7A86124B67_300x300.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://www.samurai-inc.com/cdn/shop/products/BAD7F303-8F43-4913-B212-EF7A86124B67_300x300.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
